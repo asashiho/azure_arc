@@ -47,7 +47,7 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 以下のデプロイオプションは、Azure Arc for Serversに焦点を当てています。これは、Azure Arcで管理する準備ができているサーバーを素早くスピンアップして、それを使って検証ができるように設計されています。
 
 <!-- **Note: For a list of supported operating systems and Azure regions, please visit the official [Azure Arc docs](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview).** -->
-**注：サポートされているオペレーティングシステムとAzureリージョンのリストについては、公式の[Azure Arc docs]（https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview）を参照してください。**
+**注：サポートされているオペレーティングシステムとAzureリージョンのリストについては、公式の[Azure Arc docs](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview)を参照してください。**
 
 #### General
 
@@ -89,16 +89,20 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 * [VMware vSphere、Windows Server VMをデプロイし、Terraformを使用してそれをAzure Arcに接続する](azure_arc_servers_jumpstart/docs/vmware_terraform_winsrv.md)
 
 
-#### Azure Arc for Servers - Day-2 Scenarios & Use-Cases
+
+#### Azure Arc for Servers - 2日目のシナリオとユースケース
 
 <!-- * [Tagging and querying server inventory across multiple clouds using Resource Graph Explorer](azure_arc_servers_jumpstart/docs/arc_inventory_tagging.md) -->
 * [リソースグラフエクスプローラーを使用した複数のクラウドにわたるサーバーインベントリのタグ付けとクエリ](azure_arc_servers_jumpstart/docs/arc_inventory_tagging.md)
 
-* [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_mma_arm.md)
+<!-- * [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_mma_arm.md) -->
+* [Extension Managementを使用してMicrosoft Monitoring Agent Extension (MMA) をAzure Arc LinuxおよびWindows VMにデプロイする](azure_arc_servers_jumpstart/docs/arc_vm_extension_mma_arm.md)
 
-* [Deploying Custom Script Extension to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_customscript_arm.md)
+<!-- * [Deploying Custom Script Extension to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_customscript_arm.md) -->
+* [Extension Managementを使用してカスタムスクリプト拡張をAzure Arc LinuxおよびWindows VMにデプロイする](azure_arc_servers_jumpstart/docs/arc_vm_extension_customscript_arm.md)
 
-* [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Azure Policies](azure_arc_servers_jumpstart/docs/arc_policies_mma.md)
+<!-- * [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Azure Policies](azure_arc_servers_jumpstart/docs/arc_policies_mma.md) -->
+* [Azureポリシーを使用してMicrosoft Monitoring Agent Extension（MMA）をAzure Arc LinuxおよびWindows VMにデプロイする](azure_arc_servers_jumpstart/docs/arc_policies_mma.md)
 
 ## Azure Arc for Kubernetes
 
@@ -146,19 +150,26 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Deploy Azure Redhat Openshift Cluster and connect it to Azure Arc using automation](azure_arc_k8s_jumpstart/docs/aro_script.md) -->
 * [Azure Red Hat Openshift Clusterをデプロイし、オートメーションを使用してAzure Arcに接続する](azure_arc_k8s_jumpstart/docs/aro_script.md)
 
-#### Azure Arc for Kubernetes - Day-2 Scenarios & Use-Cases
 
-* [Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_gitops.md)
+#### Azure Arc for Kubernetes - 2日目のシナリオとユースケース
 
-* [Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_monitor.md)
+<!-- * [Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_gitops.md) -->
+* [GitOps構成をデプロイし、Azure Arc ConnectedクラスターとしてAKSでGitOpsフローを実行する](azure_arc_k8s_jumpstart/docs/aks_gitops.md)
 
-* [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/aks_policy.md)
+<!-- * [Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_monitor.md) -->
+* [Azure Monitor for ContainersをAzure Arcに接続したAKSクラスターと統合する](azure_arc_k8s_jumpstart/docs/aks_monitor.md)
 
-* [Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_gitops.md)
+<!-- * [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/aks_policy.md) -->
+* [Kubernetes用のAzure Policyを使用して、AKSにGitOps構成をAzure Arc Connected Clusterとして適用する](azure_arc_k8s_jumpstart/docs/aks_policy.md)
 
-* [Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_monitor.md)
+<!-- * [Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_gitops.md) -->
+* [GitOps構成をデプロイし、Azure Arc Connected ClusterとしてGKEでGitOpsフローを実行する](azure_arc_k8s_jumpstart/docs/gke_gitops.md)
 
-* [Apply GitOps configurations on GKE as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/gke_policy.md)
+<!-- * [Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_monitor.md) -->
+* [Azure Monitor for ContainersをAzure Arc Connected ClusterとしてGKEと統合する](azure_arc_k8s_jumpstart/docs/gke_monitor.md)
+
+<!-- * [Apply GitOps configurations on GKE as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/gke_policy.md) -->
+* [Kubernetes用のAzure Policyを使用して、Azure Arc Connected ClusterとしてGKEにGitOps構成を適用する](azure_arc_k8s_jumpstart/docs/gke_policy.md)
 
 ## Azure Arc for Data Services
 
@@ -171,13 +182,17 @@ Coming soon!
 
 ### Azure Arc for Servers
 
-- Support for a Windows Server AWS EC2 instance deployment using Terraform
+<!-- - Support for a Windows Server AWS EC2 instance deployment using Terraform -->
+- Terraformを使用したWindows Server AWS EC2インスタンス デプロイのサポート
 
 ### Azure Arc for Kubernetes
 
-- Support for kind Deployment guide with Arc connectivity
-- Support for Minikube Deployment guide with Arc connectivity
-- Support for MicroK8s Deployment guide with Arc connectivity
+<!-- - Support for kind Deployment guide with Arc connectivity -->
+- kindのAzure Arc接続導入ガイドのサポート
+<!-- - Support for Minikube Deployment guide with Arc connectivity -->
+- MinikubeのAzure Arc接続導入ガイドのサポート
+<!-- - Support for MicroK8s Deployment guide with Arc connectivity -->
+- Microk8sのAzure Arc接続導入ガイドのサポート
 
 ### Azure Arc for Data Services
 
