@@ -14,5 +14,5 @@ azcmagent connect \
   --service-principal-secret $TF_VAR_client_secret \
   --tenant-id $TF_VAR_tenant_id \
   --subscription-id $TF_VAR_subscription_id \
-  --location "westus2" \
-  --resource-group "Arc-AWS-Demo" \
+  --location "${location}" \
+  --resource-group "${resourceGroup}" \

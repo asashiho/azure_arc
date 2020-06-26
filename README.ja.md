@@ -70,6 +70,8 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Deploy an AWS EC2, Ubuntu VM and connect it to Azure Arc using Terraform](azure_arc_servers_jumpstart/docs/aws_terraform_ubuntu.md) -->
 * [AWS EC2、Ubuntu VMをデプロイし、Terraformを使用してAzure Arcに接続する](azure_arc_servers_jumpstart/docs/aws_terraform_ubuntu.md)
 
+* [Deploy an AWS Amazon Linux 2 VM and connect it to Azure Arc using Terraform](azure_arc_servers_jumpstart/docs/aws_terraform_al2.md)
+
 #### Google Cloud Platform (GCP)
 
 <!-- * [Deploy a GCP, Ubuntu VM and connect it to Azure Arc using Terraform](azure_arc_servers_jumpstart/docs/gcp_terraform_ubuntu.md) -->
@@ -92,6 +94,12 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Tagging and querying server inventory across multiple clouds using Resource Graph Explorer](azure_arc_servers_jumpstart/docs/arc_inventory_tagging.md) -->
 * [リソースグラフエクスプローラーを使用した複数のクラウドにわたるサーバーインベントリのタグ付けとクエリ](azure_arc_servers_jumpstart/docs/arc_inventory_tagging.md)
 
+* [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_mma_arm.md)
+
+* [Deploying Custom Script Extension to Azure Arc Linux and Windows VMs using Extension Management](azure_arc_servers_jumpstart/docs/arc_vm_extension_customscript_arm.md)
+
+* [Deploying Microsoft Monitoring Agent Extension (MMA) to Azure Arc Linux and Windows VMs using Azure Policies](azure_arc_servers_jumpstart/docs/arc_policies_mma.md)
+
 ## Azure Arc for Kubernetes
 
 <!-- The below deployment options are focusing on Azure Arc for Kubernetes. It is designed to quickly spin up a Kubernetes cluster that is ready to be projected in Azure Arc and for you to start playing with.  -->
@@ -113,10 +121,13 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_gitops.md) -->
 * [GitOps構成を展開し、Azure Arc ConnectedクラスターとしてAKSで基本的なGitOpsフローを実行する](azure_arc_k8s_jumpstart/docs/aks_gitops.md)
 
+<<<<<<< HEAD
 <!-- * [Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_monitor.md) -->
 * [Azure Arc Connected ClusterとしてAzure Monitor for ContainersとAKSを統合する](azure_arc_k8s_jumpstart/docs/aks_monitor.md)
 
 
+=======
+>>>>>>> upstream/master
 #### Amazon Elastic Kubernetes Service (EKS)
 
 <!-- * [Deploy EKS cluster and connect it to Azure Arc using Terraform](azure_arc_k8s_jumpstart/docs/eks_terraform.md) -->
@@ -127,6 +138,7 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Deploy GKE cluster and connect it to Azure Arc using Terraform](azure_arc_k8s_jumpstart/docs/gke_terraform.md) -->
 * [GKEクラスターをデプロイし、Terraformを使用してAzure Arcに接続します](azure_arc_k8s_jumpstart/docs/gke_terraform.md)
 
+<<<<<<< HEAD
 <!-- * [Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_gitops.md) -->
 * [GitOps構成をデプロイし、Azure Arc ConnectedクラスターとしてGKEで基本的なGitOpsフローを実行する](azure_arc_k8s_jumpstart/docs/gke_gitops.md)
 
@@ -134,6 +146,8 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 * [Azure Arc Connected ClusterとしてAzure Monitor for ContainersとGKEを統合する](azure_arc_k8s_jumpstart/docs/gke_monitor.md)
 
 
+=======
+>>>>>>> upstream/master
 #### Rancher k3s
 
 <!-- * [Deploy Rancher k3s on an Azure VM and connect it to Azure Arc using Azure ARM template](azure_arc_k8s_jumpstart/docs/rancher_k3s_azure_arm_template.md) -->
@@ -149,6 +163,19 @@ Fabrikam社はAzure Arcを使用することで、リソースをプロジェク
 <!-- * [Deploy Azure Redhat Openshift Cluster and connect it to Azure Arc using automation](azure_arc_k8s_jumpstart/docs/aro_script.md) -->
 * [Azure Red Hat Openshift Clusterをデプロイし、オートメーションを使用してAzure Arcに接続する](azure_arc_k8s_jumpstart/docs/aro_script.md)
 
+#### Azure Arc for Kubernetes - Day-2 Scenarios & Use-Cases
+
+* [Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_gitops.md)
+
+* [Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/aks_monitor.md)
+
+* [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/aks_policy.md)
+
+* [Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_gitops.md)
+
+* [Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster](azure_arc_k8s_jumpstart/docs/gke_monitor.md)
+
+* [Apply GitOps configurations on GKE as an Azure Arc Connected Cluster using Azure Policy for Kubernetes ](azure_arc_k8s_jumpstart/docs/gke_policy.md)
 
 ## Azure Arc for Data Services
 
@@ -161,6 +188,7 @@ Coming soon!
 
 ### Azure Arc for Servers
 
+<<<<<<< HEAD
 <!-- - Support for an AWS Linux 2 instance deployment using Terraform -->
 - Terraformを使用したAWS Linux 2インスタンスのデプロイのサポート
 
@@ -181,6 +209,15 @@ Coming soon!
 
 <!-- - Support for MicroK8s Deployment guide with Arc connectivity -->
 - Arc接続を備えたMicroK8s導入ガイドのサポート
+=======
+- Support for a Windows Server AWS EC2 instance deployment using Terraform
+
+### Azure Arc for Kubernetes
+
+- Support for kind Deployment guide with Arc connectivity
+- Support for Minikube Deployment guide with Arc connectivity
+- Support for MicroK8s Deployment guide with Arc connectivity
+>>>>>>> upstream/master
 
 ### Azure Arc for Data Services
 

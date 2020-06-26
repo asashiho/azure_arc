@@ -31,12 +31,8 @@ sudo tee /etc/apt/sources.list.d/azure-cli.list
 sudo apt-get update
 sudo apt-get install azure-cli
 
-az extension add --name connectedk8s
-az extension add --name k8sconfiguration
-
-curl -LO https://raw.githubusercontent.com/microsoft/OMS-docker/ci_feature/docs/haiku/onboarding_azuremonitor_for_containers.sh
-
 echo "Modify the onboarding script to allow for SPN login insted of device token"
+curl -LO https://raw.githubusercontent.com/microsoft/OMS-docker/ci_feature/docs/haiku/onboarding_azuremonitor_for_containers.sh
 sed /use-device-code/s/^/#/ onboarding_azuremonitor_for_containers.sh > onboarding_azuremonitor_for_containers_modify.sh
 
 echo "Log in to Azure with Service Principle & Getting k8s credentials (kubeconfig)"

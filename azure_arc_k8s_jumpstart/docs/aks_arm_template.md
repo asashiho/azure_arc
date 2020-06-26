@@ -1,12 +1,15 @@
 # Overview
 
-The following README will guide you on how to use the provided [Azure ARM Template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) to deploy an [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes) cluster and connected it as an Azure Arc cluster resource.
+<!-- The following README will guide you on how to use the provided [Azure ARM Template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) to deploy an [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes) cluster and connected it as an Azure Arc cluster resource. -->
+次のREADMEは、提供された[Azure ARMテンプレート](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)を使用して[Azure Kubernetesサービス（AKS）](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)クラスターを作成し、それをAzure Arcクラスターリソースとして接続しました。
 
 # Prerequisites
 
-* Clone this repo
+<!-- * Clone this repo -->
+* このリポジトリを複製
 
-* [Install or update Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). **Azure CLI should be running version 2.7** or later. Use ```az --version``` to check your current installed version.
+<!-- * [Install or update Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). **Azure CLI should be running version 2.7** or later. Use ```az --version``` to check your current installed version. -->
+* [Azure CLIのインストールまたは更新](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)  ** Azure CLIはバージョン2.7以降を実行している必要があります**。現在インストールされているバージョンを確認するには、 `` `az --version```を使用します。
 
 * [Generate SSH Key](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed) (or use existing ssh key).
 
